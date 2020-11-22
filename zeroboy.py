@@ -49,17 +49,17 @@ def jalan(z):
 ##### LOGO #####
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
+|__(~)    •||•-Sultan-Khan--OFFICAL------•◈•
+|__\~~) •||•Koko-Khan-Zada---------------•◈•
+|__(-----\  •◈•------UnderWorld-Mafia-786--------•◈•
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
+\033[1;96mAuthor  \Sultan Khan
 \033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
+\033[1;96mFacebook  \Sultan Khan(Koko Khan Zada)
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/SultanKhan/Khanzada
 \033[1;91m======================================="""
 
 def tik():
@@ -87,8 +87,8 @@ print  """\033[1;91m=======================================
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "Kokokhanzada"
+CorrectPassword = "Kokokhanzada"
 
 loop = 'true'
 while (loop == 'true'):
